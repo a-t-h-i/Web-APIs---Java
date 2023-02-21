@@ -1,0 +1,1 @@
+SELECT COUNT(genre_code) FROM Books WHERE genre_code = "HIST";

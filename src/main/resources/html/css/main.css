@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(#FDFDFD);
+    margin: 20px;
+}
+
+form{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(#F2F2F2);
+}
+
+input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-style: solid;
+    border-color: rgb(204,204,204);
+    margin-left: none;
+    margin-right: none;
+}
+
+input[type=submit]{
+    background-color: #F2F2F2;
+    text-decoration: white;
+    padding: 20px 14px;
+}
+
+
+button{
+    background-color: rgb(76,175,80);
+    text-decoration: #F2F2F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-style: none;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(69,160,73);
+}

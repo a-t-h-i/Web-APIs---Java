@@ -1,0 +1,36 @@
+<HTML>
+
+<HEAD>
+
+    <TITLE>New User Registration</TITLE>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</HEAD>
+    <BODY>
+        <H1>New User Registration</H1>
+            <form>
+                <label for="firstname" >Your first name.</label><br>
+                <input type="text" id="firstname"  name="firstname" autofocus required><br>
+
+                <label for="lastname">Your last name</label><br>
+                <input type="text" id="lastname" name="lastname" required><br>
+
+                <label for="email">Your email address</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="password">Your password must be at least 8 characters and must include numbers and uppercase letters.</label><br>
+                <input type="password" id="password" name="password" required required minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$"><br>
+
+                <label for="confirmpassword">
+                    Enter your password again to confirm it</label><br>
+                <input type="password" id="confirmpassword" name="confirmpassword" required minlength="8"><br>
+
+                <label>Register</label><br>
+                <button id="submit" name="submit">Submit</button>
+            </form>
+
+        <p>Read our <a href="./ts_and_cs.html">Terms and Conditions</a> </p>
+
+    </BODY>
+</HTML>
